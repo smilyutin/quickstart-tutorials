@@ -22,8 +22,8 @@ jobs:
           
           echo ${{ secrets.GH_TOKEN }} | gh auth login --with-token
           gh auth status
-          git config --global user.email "gounthar@gmail.com"
-          git config --global user.name "gounthar"
+          git config --global user.email "smilyutin1@gmail.com"
+          git config --global user.name "smilyutin"
 
       - name: Set branch Names and start the containers
         run: |
